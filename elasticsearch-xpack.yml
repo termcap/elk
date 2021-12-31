@@ -4,7 +4,7 @@
 - module: elasticsearch
   xpack.enabled: true
   period: 10s
-  hosts: ["https://localhost:9200"]
-  username: "elastic"
-  password: "12345678"
-  ssl.verification_mode: "none"
+  hosts: ["https://1.2.3.4:9200"]
+  username: "remote_monitoring_user"
+  password: "xxxx"
+
