@@ -35,7 +35,7 @@ setup.template.settings:
 
 # The tags of the shipper are included in their own field with each
 # transaction published.
-#tags: ["service-X", "web-tier"]
+tags: ["siem", "es1"]
 
 # Optional fields that you can specify to add additional information to the
 # output.
@@ -56,14 +56,16 @@ setup.template.settings:
 
 # =================================== Kibana ===================================
 
-# Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
-# This requires a Kibana endpoint configuration.
 setup.dashboards.enabled: true
 setup.kibana:
-  host: "172.31.39.17:5601"
+  host: "10.5.7.122:5601"
   protocol: "https"
-  ssl.verification_mode: "none"
+  #ssl.verification_mode: "none"
 
+
+# Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+# This requires a Kibana endpoint configuration.
+#setup.kibana:
 
   # Kibana Host
   # Scheme and port can be left out and will be set to the default (http and 5601)
@@ -96,17 +98,15 @@ setup.kibana:
 # ---------------------------- Elasticsearch Output ----------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["https://172.31.39.17:9200","https://172.31.34.8:9200","https://172.31.47.112:9200"]
+  hosts: ["https://10.5.7.121:9200","https://10.5.7.122:9200"]
 
   # Protocol - either `http` (default) or `https`.
   protocol: "https"
-  ssl.verification_mode: "none"
-    #ssl.certificate_authorities: "/etc/metricbeat/certs/ca.crt"
 
   # Authentication credentials - either API key or username/password.
   #api_key: "id:api_key"
-  username: "elastic"
-  password: "12345678"
+  username: "beats_acc"
+  password: "WQ0kgVovjoTafLvx"
 
 # ------------------------------ Logstash Output -------------------------------
 #output.logstash:
