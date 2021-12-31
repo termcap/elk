@@ -2,7 +2,7 @@ cluster.name: CLSTR
 node.name: es1
 path.data: /data/elastic/elasticsearch
 path.logs: /var/log/elasticsearch
-network.host: ["10.5.7.121","localhost"]
+network.host: ["1.2.3.4","localhost"]
 transport.host: 192.168.150.1
 http.port: 9200
 discovery.seed_hosts: ["192.168.150.1","192.168.150.2","192.168.150.3"]
