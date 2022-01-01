@@ -1,3 +1,10 @@
+########################### IMPORTANT #######################################
+###### Remeber to change es1 to es2 and es3...esn on all cluster nodes ######
+# Remeber to change es1 to es2 and es3...esn on all cluster nodes for certs #
+#############################################################################
+
+
+
 cluster.name: CLSTR
 node.name: es1
 path.data: /data/elastic/elasticsearch
@@ -7,7 +14,6 @@ transport.host: 192.168.150.1
 http.port: 9200
 discovery.seed_hosts: ["192.168.150.1","192.168.150.2","192.168.150.3"]
 cluster.initial_master_nodes: ["192.168.150.1"]
-
 
 #Basic Password Security
 xpack.security.enabled: true
