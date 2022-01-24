@@ -8,8 +8,8 @@
 1643001769.816   1141 1.1.1.1 TCP_TUNNEL/200 13183 CONNECT website.com.com:443 - HIER_DIRECT/3.3.3.3 -
 1643001789.224    284 1.1.1.1 TCP_MISS/200 190680 GET http://website.com/1.0 - HIER_DIRECT/4.4.4.4 text/xml
 1643001801.877  42356 1.1.1.1 TCP_TUNNEL/200 5931 CONNECT website.com:443 - HIER_DIRECT/5.5.5.5 -
-1643002260.930      0 2.2.2.2 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
-1643002260.935      0 2.2.2.2 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
-1643002260.940      0 2.2.2.2 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
-1643002260.945      0 2.2.2.2 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
-1643002260.950      0 2.2.2.2 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
+1643002260.930      0 9.9.9.9 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
+1643002260.935      0 9.9.9.9 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
+1643002260.940      0 9.9.9.9 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
+1643002260.945      0 9.9.9.9 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
+1643002260.950      0 9.9.9.9 TCP_DENIED/403 4088 GET http://detectportal.firefox.com/success.txt - HIER_NONE/- text/html
