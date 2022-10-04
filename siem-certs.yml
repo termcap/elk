@@ -1,0 +1,38 @@
+instances:
+  - name: es1
+    dns:
+      - es1
+      - es1.domain.tld
+      - localhost
+    ip:
+      - 17.2.1.51
+      - 127.0.0.1
+
+  - name: es2
+    dns:
+      - es2
+      - es2.domain.tld
+      - localhost
+    ip:
+      - 17.2.2.52
+      - 127.0.0.1
+
+  - name: kibana
+    dns:
+      - kibana
+      - siem
+      - kibana.domain.tld
+      - siem.domain.tld
+      - localhost
+    ip:
+      - 17.2.2.53
+      - 127.0.0.1
+
+  - name: fleet
+    dns:
+      - fleet
+      - fleet.domain.tld
+      - localhost
+    ip:
+      - 17.2.2.56
+      - 127.0.0.1
